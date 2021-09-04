@@ -1,4 +1,6 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
+
+## Work Expectations
 
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
@@ -13,3 +15,11 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+## Work Completed
+
+- Setup the content structure on the HTML using the Bootstrap CSS Framework.
+- Provided the class information to ensure content is displayed properly in page.
+- Wrote the code to update the description 'div' on click.
+- Set an eventListener to use the save button to save information on each tag to localStorage.
+- Use moment.js to manipulate time and have the page update based on the current time.
